@@ -26,4 +26,4 @@ yarn-error.log*
 pages
 Layouts
 Contexts
-routes
+# routes
