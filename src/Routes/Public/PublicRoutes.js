@@ -19,27 +19,27 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Courses></Courses>,
         loader: () =>
-          fetch(`https://learn-hub-server-lac.vercel.app/category/00`),
+          fetch(`https://learn-hub-server-ten.vercel.app/category/00`),
       },
       {
         path: "/courses",
         element: <Courses></Courses>,
         loader: () =>
-          fetch(`https://learn-hub-server-lac.vercel.app/category/00`),
+          fetch(`https://learn-hub-server-ten.vercel.app/category/00`),
       },
       {
         path: "/category/:id",
         element: <Courses></Courses>,
         loader: ({ params }) =>
           fetch(
-            `https://learn-hub-server-lac.vercel.app/category/${params.id}`
+            `https://learn-hub-server-ten.vercel.app/category/${params.id}`
           ),
       },
       {
         path: "course/:id",
         element: <Course></Course>,
         loader: ({ params }) =>
-          fetch(`https://learn-hub-server-lac.vercel.app/course/${params.id}`),
+          fetch(`https://learn-hub-server-ten.vercel.app/course/${params.id}`),
       },
       {
         path: "/checkout/:id",
@@ -49,7 +49,7 @@ export const router = createBrowserRouter([
           </PrivateRoutes>
         ),
         loader: ({ params }) =>
-          fetch(`https://learn-hub-server-lac.vercel.app/course/${params.id}`),
+          fetch(`https://learn-hub-server-ten.vercel.app/course/${params.id}`),
       },
       {
         path: "/blog",

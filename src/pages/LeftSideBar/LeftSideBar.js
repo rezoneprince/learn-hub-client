@@ -5,7 +5,7 @@ const LeftSideBar = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    fetch("https://learn-hub-server-lac.vercel.app/categories")
+    fetch("https://learn-hub-server-ten.vercel.app/categories")
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);
