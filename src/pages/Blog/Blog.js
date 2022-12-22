@@ -16,7 +16,7 @@ const Blog = () => {
             (SOP). However, it also provides potential for cross-domain attacks,
             if a website's CORS policy is poorly configured and implemented.
             CORS is not a protection against cross-origin attacks such as
-            cross-site request forgery (CSRF).
+            cross-site request forgery (CSRF)..
           </p>
         </div>
       </div>
